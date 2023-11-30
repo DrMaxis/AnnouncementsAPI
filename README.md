@@ -2,7 +2,6 @@
 
  This is a basic API built with Laravel to feed announcements to any SPA application
 
-
 ## Infrastructure
 
 * Ubuntu 22.04
@@ -26,7 +25,7 @@ Install the following base dependencies on your computer:
 
 ##### Virtualization Environment
 
-* [Docker]([https://www.vagrantup.com/](https://docs.docker.com/get-docker/)) - latest 
+* [Docker]((https://docs.docker.com/get-docker/)) - latest 
 
 ##### Backend Dependencies Setup: Apache, PHP, Mysql, Perl
 
