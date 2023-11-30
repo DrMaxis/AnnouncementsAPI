@@ -21,6 +21,6 @@ class ApiController extends BaseController
     public function announcements(): JsonResponse
     {
         $announcements = Announcement::all();
-        return response()->json(['data'=> $announcements, 'message' => 'API Loaded']);
+        return response()->json(['data'=> $announcements, 'message' => 'Announcements fetched!']);
     }
 }
