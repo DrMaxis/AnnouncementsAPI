@@ -16,7 +16,7 @@
 ## Application
 
 - API: Laravel 10
-- [Frontend: React 17.02^](https://github.com/drmaxis-announcements-frontend) | Visit the Frontend to setup local connection.
+- [Frontend: React 17.02^](https://github.com/drmaxis/announcements-frontend) | Visit the Frontend to setup local connection.
 
 # Local Development Environment Setup Instructions
 
@@ -47,6 +47,7 @@ Install the following base dependencies on your computer:
 - Navigate to project directory
 - Configure environment:  `cp .env.local.example .env` - customize if needed
 - Install php dependencies: `composer install`
+- Set up application: `sail up -d`
 - Set application key: `./vendor/bin/sail artisan key:generate` | `sail artisan key:generate`
 - Run database migrations: `./vendor/bin/sail migrate` | `sail artisan migrate`
 - Seed the database: `./vendor/bin/sail artisan db:seed` | `sail artisan db:seed` -- this will create 20 dummy announcements
