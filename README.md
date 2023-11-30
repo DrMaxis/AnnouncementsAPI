@@ -16,7 +16,7 @@
 ## Application
 
 - API: Laravel 10
-- [Frontend: React 17.02^](https://github.com/drmaxis/announcements-frontend) | Visit the Frontend to setup local connection.
+- [Frontend: React 17.02^](https://github.com/drmaxis/announcementsfrontend) | Visit the Frontend to setup local connection.
 
 # Local Development Environment Setup Instructions
 
